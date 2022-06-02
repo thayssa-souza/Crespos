@@ -124,11 +124,11 @@ h1{
     left:11vw;
 }
 
-.container-PrimeirosTextos{
+.container-PrimeiroTexto{
     background-color: #9767A9;
     color:white;
     width:27vw;
-    height:55vh;
+    height:60vh;
     position:absolute;
     bottom:-125vh;
     left:14vw;
@@ -138,47 +138,87 @@ h1{
     width:18vw;
     margin-left:2vw;
     margin-top:3vh;
+    margin-bottom:2vh;
     font-family: 'Playfair Display', serif;
     font-size:23px;
 }
 
-.paragrafoPrimeiraImagem{
+.container-PrimeiroTexto p{
     width:23vw;
     margin-left:2vw;
-    margin-top:3vh;
     font-size:13px;
     line-height:20px;
 }
 
 .segundaImagem{
-    width:30vw;
+    width:32vw;
     position:relative;
     bottom:37vh;
     left:54vw;
 }
 
 .container-SegundoTexto{
-    width:25vw;
-    height:50vh;
+    width:26vw;
+    height:55vh;
     background-color: #9767A9;
     color:white;
     position:absolute;
-    bottom:-145vh;
-    left:56vw;
+    bottom:-152vh;
+    left:58vw;
 }
 
 .textoSegundaImagem{
     width:18vw;
     margin-left:1.5vw;
     margin-top:3vh;
+    margin-bottom:2vh;
     font-family: 'Playfair Display', serif;
     font-size:23px;
 }
 
-.paragrafoSegundaImagem{
+.container-SegundoTexto p{
     width:23vw;
     margin-left:1.5vw;
-    margin-top:2.5vh;
     font-size:13px;
-    line-height:18px;
+    line-height:20px;
+}
+
+.terceiraImagem{
+    width:32vw;
+    position:relative;
+    bottom:15vh;
+    left:11vw;
+}
+
+.container-TerceiroTexto{
+    background-color: #9767A9;
+    color:white;
+    width:25vw;
+    height:44vh;
+    position:absolute;
+    top:275vh;
+    right:58vw;
+}
+
+.textoTerceiraImagem{
+    width:14.5vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    margin-bottom:2vh;
+    font-family: 'Playfair Display', serif;
+    font-size:23px;
+}
+
+.container-TerceiroTexto p{
+    width:21vw;
+    margin-left:2vw;
+    font-size:13px;
+    line-height:20px;
+}
+
+.quartaImagem{
+    width:32vw;
+    position:relative;
+    bottom:42vh;
+    left:54vw;
 }
