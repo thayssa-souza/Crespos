@@ -127,11 +127,11 @@ h1{
 .container-PrimeiroTexto{
     background-color: #9767A9;
     color:white;
-    width:27vw;
+    width:28vw;
     height:60vh;
     position:absolute;
     bottom:-125vh;
-    left:14vw;
+    left:13vw;
 }
 
 .textoPrimeiraImagem{
@@ -144,7 +144,7 @@ h1{
 }
 
 .container-PrimeiroTexto p{
-    width:23vw;
+    width:24vw;
     margin-left:2vw;
     font-size:13px;
     line-height:20px;
@@ -158,13 +158,13 @@ h1{
 }
 
 .container-SegundoTexto{
-    width:26vw;
+    width:26.5vw;
     height:55vh;
     background-color: #9767A9;
     color:white;
     position:absolute;
     bottom:-152vh;
-    left:58vw;
+    left:57vw;
 }
 
 .textoSegundaImagem{
@@ -177,7 +177,7 @@ h1{
 }
 
 .container-SegundoTexto p{
-    width:23vw;
+    width:24vw;
     margin-left:1.5vw;
     font-size:13px;
     line-height:20px;
@@ -193,8 +193,8 @@ h1{
 .container-TerceiroTexto{
     background-color: #9767A9;
     color:white;
-    width:25vw;
-    height:44vh;
+    width:27vw;
+    height:41vh;
     position:absolute;
     top:275vh;
     right:58vw;
@@ -210,7 +210,7 @@ h1{
 }
 
 .container-TerceiroTexto p{
-    width:21vw;
+    width:24vw;
     margin-left:2vw;
     font-size:13px;
     line-height:20px;
@@ -219,6 +219,228 @@ h1{
 .quartaImagem{
     width:32vw;
     position:relative;
-    bottom:42vh;
+    bottom:43vh;
     left:54vw;
+}
+
+.container-QuartoTexto{
+    width:27vw;
+    height:42vh;
+    background-color: #9767A9;
+    color:white;
+    position:absolute;
+    bottom:-260vh;
+    left:56.5vw;
+}
+
+.textoQuartaImagem{
+    width:26vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    margin-bottom:2vh;
+    font-family: 'Playfair Display', serif;
+    font-size:23px;
+}
+
+.container-QuartoTexto p{
+    width:24vw;
+    margin-left:2vw;
+    font-size:13px;
+    line-height:20px;
+}
+
+.quintaImagem{
+    width:32vw;
+    position:relative;
+    bottom:37vh;
+    left:11vw;
+}
+
+.container-QuintoTexto{
+    background-color: #9767A9;
+    color:white;
+    width:28vw;
+    height:52vh;
+    position:absolute;
+    top:368vh;
+    right:58vw;
+}
+
+.textoQuintaImagem{
+    width:18vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    margin-bottom:2vh;
+    font-family: 'Playfair Display', serif;
+    font-size:23px;
+}
+
+.container-QuintoTexto p{
+    width:24vw;
+    margin-left:2vw;
+    font-size:13px;
+    line-height:20px;
+}
+
+.sextaImagem{
+    width:32vw;
+    position:relative;
+    bottom:48vh;
+    left:54vw;
+}
+
+.container-SextoTexto{
+    width:27vw;
+    height:45vh;
+    background-color: #9767A9;
+    color:white;
+    position:absolute;
+    bottom:-365vh;
+    left:57vw;
+}
+
+.textoSextaImagem{
+    width:26vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    margin-bottom:2vh;
+    font-family: 'Playfair Display', serif;
+    font-size:23px;
+}
+
+.container-SextoTexto p{
+    width:23vw;
+    margin-left:2vw;
+    font-size:13px;
+    line-height:20px;
+}
+
+.setimaImagem{
+    width:32vw;
+    position:relative;
+    bottom:44vh;
+    left:11vw; 
+}
+
+.container-SetimoTexto{
+    background-color: #9767A9;
+    color:white;
+    width:28vw;
+    height:36vh;
+    position:absolute;
+    top:472vh;
+    right:58vw;
+}
+
+.textoSetimaImagem{
+    width:18vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    margin-bottom:2vh;
+    font-family: 'Playfair Display', serif;
+    font-size:23px;
+}
+
+.container-SetimoTexto p{
+    width:23.5vw;
+    margin-left:2vw;
+    font-size:13px;
+    line-height:20px;
+}
+
+.oitavaImagem{
+    width:57vh;
+    position:relative;
+    bottom:48vh;
+    left:57vw;
+}
+
+.muralFotos{
+    width:80vw;
+    height:93vh;
+    flex-wrap: wrap;
+    position:relative;
+    bottom:130px;
+    left:8vw;
+}
+
+.quadroRei{
+    width:20vw;
+    height:60.5vh;
+    margin-bottom:63.5vh;
+}
+
+.quadroBeyonce{
+    width:12vw;
+    height:29vh;
+    margin-bottom:31.5vh;
+    margin-left:2vh;
+    margin-bottom:95vh;
+}
+
+.quadroMichael{
+    width:12vw;
+    height:29vh;
+    margin-left:-12.4vw;
+    margin-bottom:-0.04vh;
+    margin-bottom:63.5vh;
+}
+
+.quadroModeloComCigarro{
+    height:60.5vh;
+    margin-left:0.8vw;
+    margin-bottom:63.5vh;
+}
+
+.quadroBlackPower{
+    height:93vh;
+    width:18vw;
+    position:absolute;
+    right:14vw;
+}
+
+.quadroTrancas{
+    height:24vh;
+    width:13vw;
+    top:0vh;
+    right:0vw;
+    position:absolute;
+}
+
+.quadroBarbaMarcada{
+    height:66.2vh;
+    width:13vw;
+    top:27vh;
+    right:0vw;
+    position:absolute;
+}
+
+.quadroAnaMaria{
+    height:29vh;
+    width:20vw;
+    position:absolute;
+    bottom:0vh;
+    left:0vw;
+}
+
+.quadroTaisAraujo{
+    height:29vh;
+    width:12vw;
+    position:absolute;
+    bottom:0vh;
+    left:21vw;
+}
+
+.quadroSnoppDog{
+    height:29vh;
+    width:13vw;
+    position:absolute;
+    bottom:0vh;
+    left:34vw;
+}
+
+footer{
+    border:solid;
+    width:100%;
+    height:20vh;
 }
