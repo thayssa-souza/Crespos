@@ -17,6 +17,10 @@ header{
     align-items:center;
 }
 
+.menuMenor{
+    display:none;
+}
+
 .logo{
     width:5vw;
     height:5vh;
@@ -504,4 +508,555 @@ footer a{
 
 .setaDireita{
     height:5vh;
+}
+
+.menuMobile{
+    display:none;
+}
+
+@media(max-width:1360px) and (min-width:1100px)
+{
+    .logo{
+        width:3vw;
+        height:2.5vh;
+    }
+    
+    input{
+        height:2vh;
+    }
+    
+    h1{
+        width:20vw;
+        height:8vh;
+        font-size:50px;
+        bottom:66vh;
+        left:10vw;
+    }
+
+    .textoFotoPrincipal{
+        bottom:65vh;
+        font-size:35px;
+    }
+
+    .container-Subtitulo{
+        height:35vh;
+    }
+
+    .textoSubtitulo{
+        margin-left:3vh;
+        margin-top:3vh;
+    }
+
+    .container-PrimeiroTexto{
+        bottom:-60vh;
+        width:29vw;
+    }
+
+    .textoPrimeiraImagem{
+        width:26vw;
+    }
+
+    .container-PrimeiroTexto p
+    {
+
+        width:26vw;
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .segundaImagem{
+        bottom:35vh;
+        left:57vw;
+    }
+
+    .container-SegundoTexto{
+        width:29vw;
+        bottom:-61vh;
+        left:59vw;
+    }
+
+    .container-SegundoTexto p{
+        width:26vw;
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .terceiraImagem{
+        bottom:-14vh;
+    }
+
+    .container-TerceiroTexto{
+        top:189vh;
+        right:59vw;
+        width:29vw;
+    }
+
+    .textoTerceiraImagem{
+        width:24vw;
+    }
+
+    .container-TerceiroTexto p{
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .quartaImagem{
+        bottom:17vh;
+        left:57.5vw;
+    }
+
+    .container-QuartoTexto{
+        width:28vw;
+        height:45vh;
+        bottom:-135vh;
+        left:60vw;
+    }
+
+    .container-QuartoTexto p{
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .quintaImagem{
+        bottom:-20vh;
+    }
+
+    .container-QuintoTexto{
+        height:55vh;
+        top:257vh;
+        right:59vw;
+    }
+
+    .textoQuintaImagem{
+        width:26vw;
+    }
+
+    .container-QuintoTexto p{
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .sextaImagem{
+        bottom:7vh;
+        left:57vw;
+    }
+
+    .container-SextoTexto{
+        bottom:-211vh;
+        left:60vw;
+    }
+
+    .container-SextoTexto p{
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .setimaImagem{
+        bottom:-39vh;
+    }
+
+    .container-SetimoTexto{
+        top:339vh;
+        height:37vh;
+    }
+
+    .textoSetimaImagem{
+        width:27vw;
+    }
+
+    .container-SetimoTexto p{
+        width:25vw;
+        font-size:18px;
+        line-height:24px;
+    }
+
+    .oitavaImagem{
+        bottom:-25vh;
+        width:35vw;
+    }
+
+    .muralFotos{
+        bottom:-70vh;
+    }
+
+    .quadroModeloComCigarro{
+        width:12vw;
+    }
+
+    footer{
+        position:relative;
+        bottom:-80vh;
+    }
+
+    .menuFinal{
+        display:flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:450px) and (min-width:300px)
+{
+    header{
+        height:6vh;
+    }
+
+    .menuMenor{
+        display:block;
+        margin-left:-4.7vh;
+    }
+
+    .logo{
+        width:8vw;
+        height:4vh;
+    }
+
+    nav{
+        display:none;
+    }
+    
+    input{
+        display:none;
+    }
+
+    .container-Midias{
+        display:inline;
+        position:relative;
+        top:813vh;
+        width:35vw;
+        right:44vw;
+    }
+
+    .fb{
+        width:9vw;
+        margin-right:4px;
+    }
+    
+    .insta{
+        width:9.1vw;
+        margin-right:4px;
+    }
+    
+    .yt{
+        width:9.1vw;
+    }
+    
+    h1{
+        width:35vw;
+        height:8vh;
+        font-size:20px;
+        bottom:82vh;
+        left:9vw;
+    }
+
+    .textoFotoPrincipal{
+        bottom:75vh;
+        width:40w;
+        left:6vw;
+        font-size:10px;
+    }
+
+    .container-Subtitulo{
+        height:20vh;
+    }
+
+    .subtitulo{
+        width:80vw;
+        height:10vh;
+        font-size:20px;
+        margin-left:5vh;
+    }
+
+    .textoSubtitulo{
+        display:none;
+    }
+
+    .primeiraImagem{
+        width:80%;
+        bottom:7vh;
+    }
+
+    .container-PrimeiroTexto{
+        width:100%;
+        height:60vh;
+        bottom:-30vh;
+        left:0vh;
+    }
+
+    .textoPrimeiraImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-PrimeiroTexto p
+    {
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .segundaImagem{
+        width:80%;
+        bottom:-34vh;
+        left:7vh;
+    }
+
+    .container-SegundoTexto{
+        width:100%;
+        height:55vh;
+        bottom:-126vh;
+        left:0vh;
+    }
+
+    .textoSegundaImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-SegundoTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .terceiraImagem{
+        width:80%;
+        bottom:-82.5vh;
+        left:7vh;    
+    }
+
+    .container-TerceiroTexto{
+        width:100%;
+        height:45vh;
+        top:262vh;
+        right:0vw;
+    }
+
+    .textoTerceiraImagem{
+        width:59vw;
+        font-size:18px;
+        margin-left:5vw;    
+    }
+
+    .container-TerceiroTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .quartaImagem{
+        width:80%;
+        bottom:-116vh;
+        left:7vh; 
+    }
+
+    .container-QuartoTexto{
+        width:100%;
+        height:49vh;
+        bottom:-300vh;
+        left:0vh;
+    }
+
+    .textoQuartaImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-QuartoTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .quintaImagem{
+        width:80%;
+        bottom:-164vh;
+        left:7vh; 
+    }
+
+    .container-QuintoTexto{
+        width:100%;
+        height:53vh;
+        top:437vh;
+        right:0vw;
+    }
+
+    .textoQuintaImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-QuintoTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .sextaImagem{
+        width:80%;
+        bottom:-207vh;
+        left:7vh; 
+    }
+
+    .textoSextaImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-SextoTexto{
+        width:100%;
+        height:46vh;
+        bottom:-478vh;
+        left:0vh;
+    }
+
+    .container-SextoTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .setimaImagem{
+        width:80%;
+        bottom:-248vh;
+        left:7vh;
+    }
+
+    .container-SetimoTexto{
+        width:100%;
+        height:39vh;
+        top:618vh;
+        right:0vw;
+    }
+
+    .textoSetimaImagem{
+        width:70vw;
+        font-size:18px;
+        margin-left:5vw;
+    }
+
+    .container-SetimoTexto p{
+        margin-left:5vw;
+        width:80vw;
+        font-size:12px;
+        line-height:17px;
+    }
+
+    .oitavaImagem{
+        bottom:-286vh;
+        width:40vw;
+        left:29vw;
+    }
+
+    .muralFotos{
+        bottom:-295vh;
+        height:130vh;
+    }
+
+    .quadroRei{
+        width:35vw;
+        height:40vh;
+        margin-bottom:84vh;
+    
+    }
+    
+    .quadroBeyonce{
+        width:19vw;
+        height:14vh;
+        margin-bottom:110vh;
+        margin-left:0.5vh;
+    }
+    
+    .quadroMichael{
+        width:19vw;
+        height:14vh;
+        margin-left:1.5vw;
+        margin-bottom:110vh;
+    }
+    
+    .quadroModeloComCigarro{
+        height:57.6vh;
+        width:38vw;
+        position: absolute;
+        bottom:-63.2vh;
+        left:39vw;
+    }
+    
+    .quadroBlackPower{
+        height:45vh;
+        width:18vw;
+        position:absolute;
+        right:60.3vw;
+        top:72vh;
+    }
+    
+    .quadroTrancas{
+        height:12vh;
+        width:18vw;
+        top:117.4vh;
+        right:60.2vw;
+        position:absolute;
+    }
+    
+    .quadroBarbaMarcada{
+        height:45vh;
+        width:18vw;
+        top:72vh;
+        right:41vw;
+        position:absolute;
+    }
+    
+    .quadroAnaMaria{
+        height:29vh;
+        width:77.5vw;
+        position:absolute;
+        bottom:59vh;
+        left:0vw;
+    }
+    
+    .quadroTaisAraujo{
+        height:25vh;
+        width:40.5vw;
+        position:absolute;
+        bottom:89vh;
+        left:37vw;
+    }
+    
+    .quadroSnoppDog{
+        height:12vh;
+        width:18vw;
+        position:absolute;
+        bottom:0.5vh;
+        left:21vw;
+    }
+    
+
+    footer{
+        position:relative;
+        bottom:-300vh;
+        border:solid;
+        width:0.2vw;
+        height:0.2vh;
+    }
+
+    .menuFinal{
+        display:none;
+    }
+
+    .menuMobile{
+        display:inline;
+        width:20vh;
+        margin-left:60vw;
+        margin-top: -1vh;
+    }
 }
