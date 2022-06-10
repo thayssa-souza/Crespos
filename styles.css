@@ -148,7 +148,7 @@ h1{
     width:28vw;
     height:60vh;
     position:absolute;
-    bottom:-128vh;
+    bottom:-130vh;
     left:13vw;
 }
 
@@ -214,7 +214,7 @@ h1{
     width:27vw;
     height:41vh;
     position:absolute;
-    top:280vh;
+    top:282vh;
     right:58vw;
 }
 
@@ -280,7 +280,7 @@ h1{
     width:28vw;
     height:52vh;
     position:absolute;
-    top:371vh;
+    top:373vh;
     right:58vw;
 }
 
@@ -346,7 +346,7 @@ h1{
     width:28vw;
     height:36vh;
     position:absolute;
-    top:475vh;
+    top:485vh;
     right:58vw;
 }
 
@@ -378,7 +378,7 @@ h1{
     height:93vh;
     flex-wrap: wrap;
     position:relative;
-    bottom:94px;
+    bottom:30px;
     left:9.5vw;
 }
 
